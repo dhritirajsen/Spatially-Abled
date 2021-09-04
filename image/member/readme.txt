@@ -1,0 +1,1 @@
+for better picture resolution use PNG.

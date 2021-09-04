@@ -1,0 +1,320 @@
+.banner {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    font-size: 100px;
+}
+
+.hline-bottom {
+    padding-bottom: 10px;
+    margin-left: 120px;
+    margin-right: 200px;
+    border-bottom: 2px solid #000;
+    /* whichever color you prefer */
+}
+
+#successfulSubmitMembership {
+    color: green;
+    font-size: medium;
+}
+
+
+.navbar>ul {
+    text-align: center;
+    margin: 0px auto;
+    display: inline-flex !important;
+    float: none !important;
+}
+
+.nav {
+    text-align: center;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner .slider4 {
+    height: 270px;
+}
+
+.eng-title {
+    font-size: 35px;
+    font-family: fantasy;
+}
+
+.french-title {
+    font-size: 35px;
+    font-family: fantasy;
+    margin-right: 150px;
+}
+
+.logo_left {
+    height: 100px;
+    float: left;
+}
+
+.logo_right {
+    height: 100px;
+    float: right;
+    margin-top: -140px;
+}
+
+.home-content>.col-sm-4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+.home-content>.col-sm-5>img {
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+.home-content {
+    text-align: justify;
+}
+
+.banner-content {
+    margin: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    background-color: #343a40!important;
+    font-family: cursive;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.fa-facebook-square:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.fa-linkedin-square:hover{
+    background-color: rgb(74, 74, 236);
+    cursor: pointer;
+}
+.fa-youtube:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.fa-twitter:hover{
+    background-color: rgb(0, 174, 255);
+    cursor: pointer;
+}
+
+
+.footer-content-developer {
+    margin-top: 50px;
+    margin-left: 200px;
+    color: rgba(0, 0, 0, 0);
+}
+
+.fa {
+    margin: 5px;
+    font-size: 48px;
+    color: aliceblue;
+}
+
+.active {
+    background-color: rgba(228, 212, 120, 0.685);
+    color: white;
+}
+
+.objective-content {
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid rgb(4, 47, 102);
+}
+
+.committee-content-body {
+    margin-bottom: 110px;
+}
+
+.committee-content>.col-sm-5 {
+    margin-bottom: 25px;
+}
+
+.col-member-detail h6 {
+    font-weight: 600;
+}
+
+.col-member-detail h4 {
+    font-weight: 900;
+}
+
+.committee-content>.col-member-detail {
+    margin: 2px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.member-content>.col-sm-4 {
+    border: 8px solid rgba(134, 103, 103, 0.575);
+    margin: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.member-content>.col-sm-4>h6 {
+    color: rgb(4, 47, 102);
+    font-size: 25px;
+}
+
+.membership-body {
+    margin-bottom: 100px;
+}
+
+.contact-us-form {
+    width: 50%;
+    margin: 20px;
+}
+
+#successfulcontactus {
+    color: green;
+    font-size: medium;
+}
+
+.viewBio {
+    color: green;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.closeBio {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tweetloader {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(76, 134, 241);
+    animation-name: tweetloader;
+    animation-duration: 10s;
+}
+
+@keyframes tweetloader {
+    from {
+        background-color: rgb(250, 250, 250);
+    }
+    to {
+        background-color: rgb(0, 248, 12);
+    }
+}
+
+/* mobile view */
+
+@media only screen and (max-width: 600px) {
+    .eng-title, .french-title {
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .logo_right {
+        width: 0px;
+        height: 0px;
+    }
+    .hline-bottom {
+        padding-bottom: 0px;
+        margin-left: 66px;
+        margin-right: 1px;
+        border-bottom: 2px solid #000;
+    }
+    .navbar-nav .nav-link {
+        display: inline-block;
+    }
+}
+
+/* tablet view */
+
+@media only screen and (max-width: 800px) and (min-width:600px) {
+    .eng-title, .french-title {
+        font-size: 23px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .logo_right {
+        width: 0px;
+        height: 0px;
+    }
+    .banner {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color: rgb(199, 222, 238);
+        font-size: 50px;
+        margin: auto;
+    }
+    .hline-bottom {
+        padding-bottom: 0px;
+        margin-left: 66px;
+        margin-right: 1px;
+        border-bottom: 2px solid #000;
+    }
+    .committee-content>.col-member-detail {
+        margin: 18px;
+        margin-bottom: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+
+/* EVENTS  */
+.eventSelect {
+    display: flex;
+    width: 20%;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.custom-select{
+    margin: 10px;
+}
+
+.eachEvent{
+    border: 2px solid black;
+    border-radius: 1%;
+    margin: 3px;
+    text-decoration: none;
+    background-color: rgb(211, 210, 205);
+}
+
+/*---------------------------------Resources------------------------------------------------*/
+.blog-id{
+    border: 1px solid black;
+    margin: 5px;
+}
+#mapResources{
+    margin-bottom:12px ;
+}
+#lastUpdated{float: left;text-decoration: underline;font-weight: 600;margin: 10px;}
+#ResourceSuggestion{float: right;text-decoration: underline;font-weight: 600;margin: 10px;}
+
+@media only screen and (max-width: 600px) and (min-width:150px) {
+    #mapResources{
+        margin-bottom:1px ;
+    }
+    .blog-id{
+        border: 1px solid black;
+        overflow: scroll;
+    }
+  
+   .blog-id-content>img,h3,p{
+       font-size: medium;
+   }
+
+
+    #lastUpdated{float: left;text-decoration: underline;font-weight: 600;margin: 80px;}
+    #ResourceSuggestion{float: right;text-decoration: underline;font-weight: 600;margin: 80px;}
+}
