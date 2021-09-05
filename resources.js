@@ -8,14 +8,14 @@
 
 const resourceDetails = [
     {
-        "resourceImageLink": "./image/resource/CFC_1.JPG",
+        "resourceImageLink": "./image/resource/CFC_1.jpg",
         "resourceTitle": "Code for Climate",
         "resourceDescription": "According to latest study, the intensity of change in our local climate has changed tremendously. How to act with data science? This session focused on the available tools of advanced geospatial technology enabling everyone to understand and communicate climate change by applying geo data science and Earth Observation techniques",
         "resourceLink": "https://github.com/dhritirajsen/code_for_climate",
         "resourceFooter": "CFC_1"
     },
     {
-        "resourceImageLink": "./image/resource/CFC_2.JPG",
+        "resourceImageLink": "./image/resource/CFC_2.jpg",
         "resourceTitle": "Code For Climate 2.0",
         "resourceDescription": "This session of code for climate focused on the basics on satellite image interpreation and calculation of vegetation indices using Python",
         "resourceLink": "https://github.com/dhritirajsen/code_for_climate/blob/main/Earthpy_1.ipynb",
