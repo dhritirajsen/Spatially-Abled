@@ -15,7 +15,7 @@ const resourceDetails = [
         "resourceFooter": "CFC_1"
     },
     {
-        "resourceImageLink": "./image/resource/CFC_2.jgp",
+        "resourceImageLink": "./image/resource/CFC_2.jpg",
         "resourceTitle": "Code For Climate 2.0",
         "resourceDescription": "This session of code for climate focused on the basics on satellite image interpreation and calculation of vegetation indices using Python",
         "resourceLink": "https://github.com/dhritirajsen/code_for_climate/blob/main/Earthpy_1.ipynb",
