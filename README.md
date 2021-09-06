@@ -1,2 +1,2 @@
-# Spatially-Abled
+# Spatially enabled
 My personal website. 
