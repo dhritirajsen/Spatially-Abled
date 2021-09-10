@@ -11,6 +11,26 @@ const EventDetails = [
         
     
     },
+
+    {
+        "event_name": "Landuse Sustainability of Agricultural Zones",
+        "year_Publish" : "2018",        
+        "link": "https://link.springer.com/chapter/10.1007/978-981-10-5927-8_6",
+    
+        "event_description": ""
+        
+    
+    },
+
+    {
+        "event_name": "Urban Land Use Land Cover Change",
+        "year_Publish" : "2018",        
+        "link": "https://link.springer.com/chapter/10.1007/978-981-10-5927-8_9",
+    
+        "event_description": ""
+        
+    
+    },
     {
         "event_name": "Changing urban green spaces in Shanghai: trends, drivers and policy implications",
         "year_Publish" : "2019",        
@@ -49,6 +69,14 @@ const EventDetails = [
 
     },
     {
+        "event_name": "ARTIFICIAL INTELLIGENCE AND QUANTUM COMPUTING FOR A SMARTER WIRELESS NETWORK",
+        "year_Publish" : "2020",        
+        "link": "http://www.jcreview.com/fulltext/197-1594815186-adt-1.pdf",
+    
+        "event_description": ""
+
+    },
+    {
         "event_name": "Global offshore wind turbine dataset",
         "year_Publish" : "2021",        
         "link": "https://www.nature.com/articles/s41597-021-00982-z",
@@ -67,6 +95,14 @@ const EventDetails = [
         "event_name": "Tracking changes in aquaculture ponds on the China coast using 30 years of Landsat images",
         "year_Publish" : "2021",        
         "link": "https://www.sciencedirect.com/science/article/pii/S0303243421000908",
+    
+        "event_description": ""
+    },
+
+    {
+        "event_name": "Tracking 21st century climate dynamics of the Third Pole: An analysis of topo-climate impacts on snow cover in the central Himalaya using Google Earth Engine",
+        "year_Publish" : "2021",        
+        "link": "https://www.sciencedirect.com/science/article/pii/S0303243421001975",
     
         "event_description": ""
     }
@@ -88,7 +124,7 @@ function viewEvent() {
 
         }).join("");
     if (count === 0) {
-        document.getElementById("eventContent").innerHTML = `<p>No Publication Found For<u> ${eventSelect} </u>year</p>`
+        document.getElementById("eventContent").innerHTML = `<p>No Publication Found For<u> ${eventSelect} </u></p>`
     }
 
 }
