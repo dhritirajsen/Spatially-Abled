@@ -18,8 +18,22 @@ const resourceDetails = [
         "resourceImageLink": "./image/resource/CFC_2.jpg",
         "resourceTitle": "Code For Climate 2.0",
         "resourceDescription": "This session of code for climate focused on the basics on satellite image interpreation and calculation of vegetation indices using Python",
-        "resourceLink": "https://github.com/dhritirajsen/code_for_climate/blob/main/Earthpy_1.ipynb",
+        "resourceLink": "https://www.smartshanghai.com/event/67450",
         "resourceFooter": "CFC_2"
+    },
+    {
+        "resourceImageLink": "./image/resource/climate.jpg",
+        "resourceTitle": "Shanghai Climate Action Conference 2021",
+        "resourceDescription": "Green Initiatives hosted the Climate Action Conference Shanghai with support from PwC China, The United States Consulate General, The British Consulate General, Australian Consulate-General, The Norwegian Consulate General and Consulate-General of the Kingdom of the Netherlands. I was fortunate enough to moderate the panel discussion on Solutions Towards Carbon Emissions",
+        "resourceLink": "https://greeninitiatives.cn/event/forum-pwc-sep2021/",
+        "resourceFooter": "climate"
+    },
+    {
+        "resourceImageLink": "./image/resource/movie.jpg",
+        "resourceTitle": "The Year Earth Changed : Green Initiatives August Film Screening",
+        "resourceDescription": "I was invited as a guest speaker to connect with common people at Green Initiatives' 133rd film screening, “The Year Earth Changed” a special feature to reflect on nature’s resiliency and some of the lessons learned from global lockdowns.",
+        "resourceLink": "https://learn.seedsofchange.tech/sessions/60ffabfcaa14b4001a8acad5",
+        "resourceFooter": "movie"
     },
     
     
