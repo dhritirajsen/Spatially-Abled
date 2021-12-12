@@ -13,9 +13,10 @@ const blogBody = [
     },
     {
         "blog_no": 2,
-        "title": "some Title",
+        "title": "Split Polygons into Equal Parts using QGIS",
         "is_image": false,
-        "body": "body",
+        "body": `In this post, I describe how we can use built-in QGIS processing tools to create a workflow to split polygons into equal parts. Using a clever algorithm and Feature Iterator tool in the Processing Framework, we can easily split all features in a given polygon layer into equal parts.
+        `,
         "introdcution": "introduction blog 2"
     }
 ]
