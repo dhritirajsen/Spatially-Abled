@@ -105,7 +105,39 @@ const EventDetails = [
         "link": "https://www.sciencedirect.com/science/article/pii/S0303243421001975",
     
         "event_description": ""
+    },
+
+	{
+        "event_name": "Using Time-Series Remote Sensing Images in Monitoring the Spatial–Temporal Dynamics of LULC in the Msimbazi Basin, Tanzania",
+        "year_Publish" : "2021",        
+        "link": "https://www.mdpi.com/2073-445X/10/11/1139",
+    
+        "event_description": ""
+    },
+
+	{
+        "event_name": "Tracking 21st century climate dynamics of the Third Pole: An analysis of topo-climate impacts on snow cover in the central Himalaya using Google Earth Engine",
+        "year_Publish" : "2021",        
+        "link": "https://www.sciencedirect.com/science/article/pii/S0303243421001975",
+    
+        "event_description": ""
+    },
+	{
+        "event_name": "Accurate mapping of Chinese coastal aquaculture ponds using biophysical parameters based on Sentinel-2 time series images",
+        "year_Publish" : "2022",        
+        "link": "https://www.sciencedirect.com/science/article/pii/S0025326X22005835",
+    
+        "event_description": ""
+    },
+	{
+        "event_name": "Mapping the rapid development of photovoltaic power stations in northwestern China using remote sensing",
+        "year_Publish" : "2022",        
+        "link": "https://www.sciencedirect.com/science/article/pii/S2352484722005935",
+    
+        "event_description": ""
     }
+
+
 ]   
 
 function viewEvent() {
