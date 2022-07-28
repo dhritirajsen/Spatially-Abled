@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,26 +12,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="httpRqst.js"></script>
-    <script src="events.js"></script>
+    <script src="blog.js"></script>
+    <script src="blog_data.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5YP0MJFCJV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5YP0MJFCJV');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5YP0MJFCJV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-5YP0MJFCJV');
+    </script>
 
 </head>
 
-<body>
+<body onload="blogPageloading()">
 
     <div class="banner">
 
         <p class="eng-title hline-bottom"><img src="./image/resource/earth.gif" width="350px" height="220px"
-                alt="DhritiRaj"> Dhritiraj Sengupta,P.hD</p> <p>Spatially Enabled</p>
+                alt="DhritiRaj"> Dhritiraj Sengupta,P.hD</p>
+        <p>Spatially Enabled</p>
     </div>
     <div class="container">
         <div class="row">
@@ -47,10 +48,10 @@
                             <a class="nav-link" href="Outreach.html">Twitter</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="Events.html">My Publications</a>
+                            <a class="nav-link" href="Events.html">My Publications</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="blog.html">Blog</a>
+                            <a class="nav-link active" href="blog.html">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link " href="Resources.html">Community Engagement</a>
@@ -58,29 +59,35 @@
                     </ul>
                 </nav>
             </div>
+
+            <!--Blog BODY-->
+
+            <div class="col-sm-10 blog">
+                <hr />
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4"><button class="btn btn-info" onclick="nextBlog()">Prev</button></div>
+                        <div class="col-sm-4">
+                            <span class="blog-title">Blog</span>
+                        </div>
+                        <div class="col-sm-4"><button class="btn btn-info" onclick="nextBlog()">Next</button></div>
+                    </div>
+                </div>
+                <hr />
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-8">
+                            <div class="blog-body" id="blogBody"></div>
+                        </div>
+                        <div class="col-sm-2"></div>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
     </div>
-
-    <!--Publication BODY-->
-
-    
-
-    <div class="eventSelect">
-        <select class="browser-default custom-select" id="eventSelect">
-            <option selected>Select Year</option>
-            <option value="2018">2018</option>
-            <option value="2019">2019</option>
-            <option value="2020">2020</option>
-            <option value="2021">2021</option>
-            <option value="2022">2022</option>            
-        </select>
-        <button class="btn btn-danger" onclick="viewEvent()">View</button>
-    </div>
-
-
-    <div class="container">
-        <div class="row" id="eventContent">
-        </div>
     </div>
 
     <!--FOOTER BODY-->
