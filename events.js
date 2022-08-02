@@ -101,7 +101,7 @@ const EventDetails = [
 
     {
         "event_name": "Tracking 21st century climate dynamics of the Third Pole: An analysis of topo-climate impacts on snow cover in the central Himalaya using Google Earth Engine",
-        "year_Publish" : "2021",        
+        "year_Publish" : "",        
         "link": "https://www.sciencedirect.com/science/article/pii/S0303243421001975",
     
         "event_description": ""
